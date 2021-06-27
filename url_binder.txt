@@ -1,0 +1,11 @@
+share url:
+https://mybinder.org/v2/gh/bili-tufli/infra_projects/tree/main/project_aid/main?filepath=https%3A%2F%2Fgithub.com%2Fbili-tufli%2Finfra_projects%2Fblob%2Fmain%2Fproject_aid%2Fvoila_compatible.ipynb
+
+
+
+
+link to readme:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bili-tufli/infra_projects/tree/main/project_aid/main?filepath=https%3A%2F%2Fgithub.com%2Fbili-tufli%2Finfra_projects%2Fblob%2Fmain%2Fproject_aid%2Fvoila_compatible.ipynb)
+
+
+
