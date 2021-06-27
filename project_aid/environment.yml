@@ -1,0 +1,17 @@
+name: cenv_aid
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - plotly
+  - ipywidgets
+  - ipykernel
+  - nbconvert
+  - jupyter-flex
+  - voila
+

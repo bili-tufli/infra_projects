@@ -1,0 +1,21 @@
+dfmap['Project'] = " "+ dfmap['project_title'] + " [" + dfmap['location_type_name']+ "]"
+fig = px.scatter_mapbox(dfmap, 
+                     lon = dfmap['longitude'],
+                     lat = dfmap['latitude'],
+                     opacity = 0.5,
+                     color="sector", 
+                     hover_name="place_name",
+                     hover_data=["country", "usd_current", "start_year"],
+                     animation_frame="cumulative_by_year",
+                        zoom = 2
+                     )
+
+title = "Map of Chinese Aid and Investments around the World during 2000 - 2014. \n [Click on Legend to Filter by Sector]"
+fig.update_layout(mapbox_style="open-street-map", 
+                  margin={"r":0,"t":0,"l":0,"b":0}, 
+                  title=title,
+                  legend_title_text='Sector', 
+                  hovermode='closest')
+
+#fig.show()
+iplot(fig)

@@ -1,0 +1,10 @@
+numpy
+matplotlib
+pandas
+plotly
+ipywidgets
+ipykernel
+nbconvert
+jupyter-flex
+voila
+voila-material
