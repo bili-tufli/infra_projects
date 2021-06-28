@@ -14,4 +14,7 @@ dependencies:
   - nbconvert
   - jupyter-flex
   - voila
+  - voila-reveal
+  - voila-gridstack
+  - voila-material
 

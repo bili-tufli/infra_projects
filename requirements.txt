@@ -8,3 +8,5 @@ nbconvert
 jupyter-flex
 voila
 voila-material
+voila-reveal
+voila-gridstack
