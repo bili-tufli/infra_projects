@@ -1,7 +1,7 @@
 {"VoilaConfiguration" : {
     "theme" : "dark", 
     "template" : "reveal", 
-    "reveal" : {"transition":"zoom", "scroll":"false", "theme":"dark"},
+    "reveal" : {"transition":"zoom", "scroll":"true", "theme":"dark"},
     "enable_nbextensions" : true
 } 
 }
